@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="NJNEBJModule">
+        <wb-resource deploy-path="/" source-path="/ejbModule" tag="defaultRootSource"/>
+        <property name="java-output-path" value="/NJNEBJModule/build/classes"/>
+        <property name="ClientProject" value="NJNEBJModuleClient"/>
+        <property name="ClientJARURI" value="NJNEBJModuleClient.jar"/>
+    </wb-module>
+</project-modules>
