@@ -49,7 +49,7 @@ private static final long serialVersionUID = 1L;
 	}
 	
 	/**
-	 * Recupero todas las deudas del contacto.
+	 * Recupero todas las deudas de este contacto.
 	 * 
 	 * @return
 	 */
