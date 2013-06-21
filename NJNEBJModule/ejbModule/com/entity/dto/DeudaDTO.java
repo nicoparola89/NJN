@@ -1,33 +1,17 @@
-package com.entity.entidades;
+package com.entity.dto;
 
-import java.io.Serializable;
 import java.util.Date;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
 
-
-/**
- * Son las deudas (o pagos) de un contacto con el usuario
- *
- */
-@Entity
-public class Deuda implements Serializable {
-	private static final long serialVersionUID = 1L;
+public class DeudaDTO {
 	
-	@Id	
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Integer id = 0;
+	private Integer id;
 	private String descripcion;
 	private boolean estaPagada;
 	private Date fechaEmision;
 	private Date fechaPago;
 	private int monto;
 	private boolean meDebe;
-	
-		
 	public Integer getId() {
 		return id;
 	}
@@ -70,7 +54,6 @@ public class Deuda implements Serializable {
 	public void setTipoDeuda(boolean meDebe) {
 		this.meDebe = meDebe;
 	}
+
 	
-	
-		
 }
