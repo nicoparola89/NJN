@@ -55,6 +55,8 @@ public class DeudaServiceValidations {
 	public List<ValidationError> validarCancelarDeuda(Integer deudaId) {
 		List <ValidationError> errors =  new ArrayList<ValidationError>();
 		
+		Deuda deuda = deudaRepository.get(deudaId);
+		
 		
 		
 		return null;
