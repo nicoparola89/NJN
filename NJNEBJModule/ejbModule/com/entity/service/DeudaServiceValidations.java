@@ -1,6 +1,7 @@
 package com.entity.service;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 import javax.ejb.EJB;
@@ -56,9 +57,7 @@ public class DeudaServiceValidations {
 		List <ValidationError> errors =  new ArrayList<ValidationError>();
 		
 		Deuda deuda = deudaRepository.get(deudaId);
-		
-		
-		
+				
 		return null;
 	}
 

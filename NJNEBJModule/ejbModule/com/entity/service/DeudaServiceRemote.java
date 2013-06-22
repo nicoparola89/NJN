@@ -40,7 +40,7 @@ public interface DeudaServiceRemote {
 	 * Cancela una deuda
 	 * @param deudaId
 	 */
-	void cancelarDeuda(Integer deudaId);
+	void cancelarDeuda(DeudaDTO deuda);
 	
 }
 
